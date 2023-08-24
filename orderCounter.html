@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>orderCounter</title>
+    <link rel="stylesheet" href="./orderCounter.css" />
+  </head>
+  <body>
+    <h1>SALES:</h1>
+    <h2 id="count-el">0</h2>
+    <img class="background" src="./coffee shop.jpg" alt="" />
+
+    <!-- create increment button -->
+    <div>
+      <button id="increment-btn" onclick="increment()">ORDER</button>
+      <button id="save-btn" onclick="save()">SAVE</button>
+    </div>
+    <p id="save-el">Previous entries: </p>
+
+    <script src="./orderCounter.js"></script>
+  </body>
+</html>
